@@ -1,37 +1,64 @@
 # Beverage_Brands_PowerBI
-🧾 Sales Dashboard - Power BI Visualization
-This Power BI project presents an interactive sales dashboard designed to analyze beverage sales across the United States. The dataset includes product-wise revenue, units sold, pricing, and geographic data, providing valuable insights for business decisions.
 
-📊 Features:
-Dynamic Product Filter: Toggle between Coca-Cola, Diet Coke, Fanta, Sprite, Powerade, and Dasani to view product-specific metrics.
+# 📊 Power BI Sales Dashboard
 
-KPI Cards:
+An interactive and visually rich sales dashboard built using Microsoft Power BI to analyze beverage sales performance across the United States. This dashboard enables stakeholders to monitor key metrics like revenue, units sold, price distribution, and geographic sales trends.
 
-💰 Revenue: Total revenue generated
+![image](https://github.com/user-attachments/assets/f5ada542-0986-4e00-976b-c1adb51a189e) 
 
-📦 Units Sold: Sum of product units sold
+---
 
-💲 Median Price: Price per unit across all states
+## 🚀 Project Overview
 
-Revenue Trends: Bar chart visualizing monthly revenue performance across the year.
+This project provides an end-to-end visualization of sales data segmented by product, month, and U.S. state. It helps decision-makers quickly grasp business performance and identify areas for growth or optimization.
 
-Geographical Insights: A map view powered by Bing to explore revenue distribution by U.S. state.
+---
 
-🛠 Tools & Technologies:
-Microsoft Power BI
+## 📌 Key Features
 
-DAX for calculated measures and aggregations
+- **Dynamic Product Filter**  
+  Select between Coca-Cola, Diet Coke, Fanta, Sprite, Powerade, and Dasani to view product-specific performance.
 
-Microsoft Bing Maps integration
+- **KPI Cards**  
+  - 💰 **Total Revenue**: 1.39M  
+  - 📦 **Units Sold**: 2.87M  
+  - 💲 **Median Price per Unit**: $0.45  
 
-Data cleaning and preparation in Power Query Editor
+- **Monthly Revenue Trend**  
+  Visual bar chart showing revenue distribution by month.
 
-📌 Use Cases:
-Sales trend analysis over time
+- **Geographical Sales Map**  
+  Map visualization displaying the sum of revenue by U.S. states using bubble plots for quick comparison.
 
-Regional performance breakdown
+---
 
-Product-wise market penetration tracking
+## 🛠 Technologies Used
 
-Pricing strategy evaluation
-![image](https://github.com/user-attachments/assets/f5ada542-0986-4e00-976b-c1adb51a189e)
+- **Microsoft Power BI**
+- **Power Query Editor** – for data cleaning and transformation
+- **DAX (Data Analysis Expressions)** – for calculated fields and measures
+- **Bing Maps Integration** – for geographic visualization
+
+---
+
+## 📈 Business Insights
+
+- Track and compare product performance over months.
+- Identify high-performing states based on revenue.
+- Optimize pricing strategies by analyzing median unit price.
+- Support strategic marketing and inventory planning.
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+📂 Power-BI-Sales-Dashboard
+├── 📊 Dashboard.pbix              # Power BI dashboard file
+├── 📁 Data                       # Raw/cleaned datasets (optional)
+├── 📷 dashboard-screenshot.png  # Image of the final dashboard
+└── README.md                    # Project documentation
+
+
+
+
